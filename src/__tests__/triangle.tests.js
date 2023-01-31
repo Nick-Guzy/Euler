@@ -26,11 +26,17 @@
 import NaturalNumber from '../number';
 
 describe('NaturalNumber', () => {
-  test('value of NaturalNumber is greater than 1000',  () => {
-    const naturalNumber = new NaturalNumber(2000);
-    expect (naturalNumber.value).toEqual(2000);
+  test('value of maxLimit is greater than 1000',  () => {
+    const maxNumber = new NaturalNumber(3, 2000);
+    expect (maxNumber.maxLimit).toEqual(2000);
+  });
+  test('value of num is not a multiple of 3 or 5',  () => {
+    const num = new NaturalNumber();
+    expect (num.notMultipleOf3Or5(1)).toEqual(true);
   });
 });
+
+
 
 
 
