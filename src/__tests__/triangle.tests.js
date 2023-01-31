@@ -38,6 +38,10 @@ describe('NaturalNumber', () => {
     const maxNumber = new NaturalNumber(3, 1000);
     expect (maxNumber.maxLimit).toEqual(999);
   });
+  test('value of num is a multiple of 3 or 5',  () => {
+    const num = new NaturalNumber();
+    expect (num.notMultipleOf3Or5(3)).toEqual(true);
+  });
 });
 
 
