@@ -12,18 +12,18 @@
 //     }
 // };
 
-export default function NaturalNumber(number1, maxLimit) {
-    this.number1 = number1
-    this.maxLimit = maxLimit
+// export default function NaturalNumber(number1, maxLimit) {
+//     this.number1 = number1
+//     this.maxLimit = maxLimit
 
-}
+// }
 
-NaturalNumber.prototype.notMultipleOf3Or5 = function(num){
-    if (num % 3 === 0 || num % 5 === 0)
-    {
-        return true
-    }
-    else {
-        return "not a multiple of 3 or 5"
-    }
-}
+// NaturalNumber.prototype.notMultipleOf3Or5 = function(num){
+//     if (num % 3 === 0 || num % 5 === 0)
+//     {
+//         return true
+//     }
+//     else {
+//         return "not a multiple of 3 or 5"
+//     }
+// }
