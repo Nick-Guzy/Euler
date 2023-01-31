@@ -13,6 +13,6 @@
 // };
 
 export default function NaturalNumber(value) {
-    // this.value = value;
+    this.value = value;
 
 }

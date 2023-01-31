@@ -28,7 +28,7 @@ import NaturalNumber from '../number';
 describe('NaturalNumber', () => {
   test('value of NaturalNumber is greater than 1000',  () => {
     const naturalNumber = new NaturalNumber(2000);
-    expect (naturalNumber.value).toEqual(999);
+    expect (naturalNumber.value).toEqual(2000);
   });
 });
 
